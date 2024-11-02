@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: subwayF;
+    src: url(../font/Subway-Footlong.woff);
+}
+@font-face {
+    font-family: subwayS;
+    src: url(../font/Subway-SixInch.woff);
+}
+*{margin: 0; padding: 0;}
+html{font-family: 'Noto Sans KR', sans-serif; font-weight: normal; font-size: 13px; }
+img{border: 0;}
+a{text-decoration: none;}
+ul,li,ol{list-style: none;}
+.fl{float: left;}
+.fr{float: right;}
+.cb{clear: both;}
+.cf::after{content: ''; display: block; clear: both;}
+.hidden{display: none;}
